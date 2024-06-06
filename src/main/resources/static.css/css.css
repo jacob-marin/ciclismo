@@ -1,0 +1,11 @@
+#encabezado {
+    text-align: center; 
+    color: blue;
+    margin-left:450px; 
+}
+
+#portada{
+    width: 100%;
+    border-image: 2;
+    
+}
