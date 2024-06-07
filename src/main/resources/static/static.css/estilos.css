@@ -1,0 +1,148 @@
+#encabezado {
+    text-align: center; 
+    color: purple;
+    margin: 0;
+    margin-left: 3%;
+}
+
+#contenido {
+    color: white;
+    margin-left: 3%;
+}
+
+#menu{
+    text-align: center;
+}
+#portada{
+    width: 100%;
+    border-image: 2;
+    
+}
+
+body {
+    /*background-image: url(https://ichef.bbci.co.uk/ace/ws/624/amz/worldservice/live/assets/images/2014/08/28/140828174616_sp_bicicleta_1_624x351_engeenius.jpg.webp);*/
+    /*background-repeat: no-repeat;*/
+    /*color: #ffffff;*/
+    /*background-size: cover;*/
+    /*margin: 0;*/
+    height: 100vh;
+    background-color: black;
+    font-family: cursive;
+}
+
+h1 {
+    color: white;
+    
+}
+
+.descripcion {
+    margin-right: 50%;
+    margin-left: 3%;
+    
+}
+
+nav ul {
+    list-style-type: none;  
+}
+nav li {
+    display: inline;    
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+
+
+
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}*/
