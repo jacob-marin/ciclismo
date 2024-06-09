@@ -6,16 +6,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="static.css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
+    
     <body>
         <header id="encabezado">
 		<h1>Tienda de Ciclismo</h1>
-		<br>
+		<!--<br>-->
 	</header>
-	<nav id="menu">
-		<a href="html">Atrás</a>
-		<a href="index.html">Home</a>
-		<a href="pagina1.html">Siguiente</a>
-	</nav>
+	<nav>
+        <ul class="menu-horizontal">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pagina1.html">MTB</a></li>
+            <li><a href="pagina2.html">Carretera</a></li>
+            <li><a href="Videos.html">Recomendaciones tecnicas</a></li>
+            <li><a href="taller.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="login.html">Registrase</a></li>
+        </ul>
+    </nav>
         <section id="contenido">
 		<h2>Articulos principales</h2>
                 <figure id="portada">
@@ -28,10 +35,13 @@
 			</p>
 			<figure>				
                             <img src="../static.imagen/mtb1.jpg" alt="MTB"/>
-				<figcaption>Imagen con fines ilustrativos</figcaption>
+				<figcaption>Todo terreno</figcaption>
 			</figure>
-
+                        <nav id="mtb">
+                            
+                        </nav>
 		</article>
+                <a href="pagina1.html">Ver mas</a>
 		<article>
 			<header>Bicicletas de Carretera</header>
 			<p class="descripcion">
@@ -42,6 +52,7 @@
 				<figcaption>Más vendido</figcaption>
 			</figure>
 		</article>
+                <a href="pagina2.html">Ver mas</a>
 		<article>
 			<header>Urbanas</header>
 			<p class="descripcion">

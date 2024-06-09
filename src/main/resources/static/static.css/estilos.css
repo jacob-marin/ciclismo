@@ -1,8 +1,9 @@
 #encabezado {
     text-align: center; 
-    color: purple;
-    margin: 0;
+    /*color: purple;*/
+    /*margin: 0;*/
     margin-left: 3%;
+    margin-right: 3%;
 }
 
 #contenido {
@@ -30,9 +31,12 @@ body {
     font-family: cursive;
 }
 
-h1 {
+h1, p {
     color: white;
-    
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: cursive;
+    text-align: center;
 }
 
 .descripcion {
@@ -54,6 +58,86 @@ header {
     padding: 1rem 0;
     text-align: center;
 }
+
+/*otros estilos*/ 
+
+
+nav {
+    background-color: #333;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.menu-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra el menú horizontalmente */
+    /*margin-left: 3%;*/
+}
+
+.menu-horizontal li {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu-horizontal a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    /*margin-left: 3%;*/
+}
+
+.menu-horizontal a:hover {
+    background-color: #575757;
+}
+
+#mtb {
+    color: white;
+    margin-left: 3%;
+    
+}
+
+h3, h2, h4{
+    color: white;
+    margin-left: 3%;
+    text-align: center;
+}
+
+.parrafo{
+    color: white;
+    margin-left: 3%;
+    margin-right: 10%;
+}
+
+
+.div{
+    margin: 0 auto;
+    margin-left: 30%;
+}
+/*
+#taller{
+    text-align: center;
+}*/
+
+figure{
+    /*margin: 5% 50% 10% 10%;*/
+    margin-left: 22%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
