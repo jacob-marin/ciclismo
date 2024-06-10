@@ -31,7 +31,7 @@ body {
     font-family: cursive;
 }
 
-h1, p {
+h1 {
     color: white;
     margin-left: 3%;
     margin-right: 3%;
@@ -129,7 +129,21 @@ figure{
     margin-left: 22%;
 }
 
+#check{
+    color: white;
+    text-align: left;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-color: aqua;
+    border-width: 2px;
+    border-style: groove;
+}
 
+#check h3{
+    text-align: center;
+    color: white;
+    margin-right: 30%
+}
 
 
 
